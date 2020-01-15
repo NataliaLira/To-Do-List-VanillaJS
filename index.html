@@ -15,10 +15,10 @@
 <body>
     <header>
         <nav class="navbar navbar-ligth bg-dark">
-            <a href="#" class="navbar-brand ">To Do List</a>
+            <a href="#" class="navbar-brand text-white">To Do List</a>
         </nav>
     </header>
-    <main class="container">
+    <main class="container d-flex flex-column">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3>To Be Done:</h3>
@@ -27,7 +27,7 @@
         <div id="board" class="row">
             <div class="task col-md-12">
                 <div class="col-md-8 text-center">
-                    What
+                    TASKS
                 </div>
                 <div class="col-md-2">
                     <img src="img/check.png" alt="icone check" width="50px">
@@ -35,6 +35,17 @@
             </div>
         </div>
     </main>
+    <footer class="bg-dark">
+        <div class="row col-md-12">
+            <div class="col-md-6">
+                <input class="col-md-12" type="text" id="write-task">
+            </div>
+            <div class="col-md-4">
+                <!-- <img src="img/add.png" width="40px" alt="" id="add-task"> -->
+                <button id="add-task" class="col-md-12 btn ">Add Task</button>
+            </div>
+        </div>
+    </footer>
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

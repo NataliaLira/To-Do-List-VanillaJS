@@ -5,3 +5,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+#add-task {
+  color: ;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
